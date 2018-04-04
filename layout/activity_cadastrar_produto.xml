@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phillipeosorio.projetograduacao.CadastrarProdutoActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/et_descricaoProduto"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Produto"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/et_quantidadeProduto"
+        android:layout_width="284dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="Quantidade em Estoque (kg)"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <EditText
+        android:id="@+id/et_precoProduto"
+        android:layout_width="288dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="Preço Unitário"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/bt_adicionarProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="342dp" />
+</android.support.constraint.ConstraintLayout>
